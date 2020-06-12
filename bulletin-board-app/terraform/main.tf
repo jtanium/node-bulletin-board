@@ -1,5 +1,5 @@
 
-module "node_bulletiin_board" {
+module "node_bulletin_board" {
   source  = "my.scalr.com/env-stst3lhp1fhvffo/scalr_example/aws"
   version = "0.1.0"
 

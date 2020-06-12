@@ -31,8 +31,8 @@ if ('production' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/api/events', api.events);
-app.post('/api/events', api.event);
-app.delete('/api/events/:eventId', api.event);
+app.post('/api/events', api.new_event);
+app.delete('/api/events/:eventId', api.destroy);
 
 app.listen(8080);
 console.log('Magic happens on port 8080...');
