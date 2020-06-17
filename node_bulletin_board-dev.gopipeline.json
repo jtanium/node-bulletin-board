@@ -43,7 +43,7 @@
           "tasks": [
             {
               "command": "docker",
-              "working_directory": "image",
+              "working_directory": "bulletin-board-app",
               "timeout": -1.0,
               "arguments": [
                 "build",
@@ -66,7 +66,7 @@
           "tasks": [
             {
               "command": "docker",
-              "working_directory": "image",
+              "working_directory": "bulletin-board-app",
               "timeout": -1.0,
               "arguments": [
                 "push",
@@ -102,7 +102,7 @@
           "tasks": [
             {
               "command": "provision_workspace.sh",
-              "working_directory": "terraform",
+              "working_directory": "bulletin-board-app/terraform",
               "timeout": -1.0,
               "arguments": [
                 "dev",
